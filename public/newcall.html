@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>সুস্থ হও</title>
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/newcall.css" />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <meta property="og:title" content="সুস্থ হও video calls" />
+
+  </head>
+  <body class="has-animations">
+    <div class="body-wrap">
+      <header class="site-header reveal-from-top">
+        <div class="container">
+          <div class="site-header-inner">
+            <div class="brand">
+              <h1 class="m-0">
+                <a href="/"
+                  ><img src="images/logo.png" alt="Neon" width="32" height="32"
+                /></a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="site-content">
+
+        <section class="cta section center-content-mobile reveal-from-bottom">
+          <div class="container">
+            <div class="cta-inner section-inner cta-split">
+              <div class="cta-slogan">
+                <h3 class="m-0">
+                  Pick a call name.<br />
+                  How about this one?
+                </h3>
+              </div>
+              <div class="cta-action">
+                <div class="mb-24">
+                  <label class="form-label screen-reader" for="input-01"
+                    >This is a label</label
+                  >
+                  <div class="form-group-desktop">
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="input-01"
+                      value="PurpleSquid"
+                    />
+                    <button
+                      class="button button-primary pulse"
+                      onclick="{window.location.href = '/join/' + document.getElementById('input-01').value}"
+                    >
+                      Create Room
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/landing.js"></script>
+    <script src="js/newroom.js"></script>
+  </body>
+</html>
