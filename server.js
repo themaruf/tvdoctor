@@ -29,12 +29,12 @@ app.use(function (req, res, next) {
 
 app.get("/", function (req, res) {
 //   res.sendFile(path.join(public, "newcall.html"));
-  res.redirect("http://shusthohow.com/admin");
+  res.redirect("https://shusthohow.com/admin");
 });
 
 app.get("/newcall", function (req, res) {
 //   res.sendFile(path.join(public, "newcall.html"));
-  res.redirect("http://shusthohow.com/admin");
+  res.redirect("https://shusthohow.com/admin");
 });
 
 app.get("/join/", function (req, res) {
@@ -130,5 +130,5 @@ io.on("connection", function (socket) {
 // Listen for Heroku port, otherwise just use 3000
 var port = process.env.PORT || 3000;
 http.listen(port, function () {
-  console.log("http://localhost:" + port);
+  //console.log("http://localhost:" + port);
 });
