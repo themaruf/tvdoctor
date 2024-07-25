@@ -14,7 +14,7 @@
     "express": "^4.19.2",
     "heroku-ssl-redirect": "0.0.4",
     "socket.io": "^2.4.0",
-    "twilio": "^4.13.0"
+    "twilio": "^4.22.0"
   },
   "devDependencies": {
     "prettier": "2.0.2"
